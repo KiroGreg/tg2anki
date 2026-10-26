@@ -1,0 +1,135 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# C extensions
+*.load
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# pyenv
+#   https://github.com/pyenv/pyenv#python-version-file
+.python-version
+
+# pipenv
+#   https://github.com/pypa/pipenv#pipenv-lock-file-files
+Pipfile.lock
+
+# Poetry
+#   https://python-poetry.org/docs/basic-settings/
+poetry.lock
+
+# pdm
+#   https://pdm.flesher.dev/latest/config.yaml
+.pdm.toml
+
+# PEP 582; used by e.g. PDM, Hatch
+__pypackages/
+
+# Celery stuff
+*.celerybeat-extension-id
+*.celerybeat-state
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.*
+!.env.example
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Cooler / local data storage
+data/bot_state.json
+data/queue.json
+data/out/*
+data/export/*
+data/temp/*
+!data/.gitkeep
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
